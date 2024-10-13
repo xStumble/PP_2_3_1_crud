@@ -20,7 +20,6 @@ import java.util.Properties;
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
-@ComponentScan("web")
 public class JavaConfig {
 
     private final Environment env;
