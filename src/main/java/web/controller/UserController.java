@@ -49,7 +49,6 @@ public class UserController {
     @PostMapping("/deleteuser")
     public String deleteUser(@RequestParam long id) {
         userService.deleteUser(id);
-        System.out.println(213);
         return "redirect:/";
     }
 }
